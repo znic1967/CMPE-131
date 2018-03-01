@@ -1,0 +1,232 @@
+<!doctype html>
+<html>
+	<head>
+		<title>Zackary K. Nicholson</title>
+		<link href="css/main.css" rel="stylesheet">
+		<script src="js/script.js"></script>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+	</head>
+
+	<body>
+		<div>
+			<img src="images/banner.jpg" id="banner">
+			<div>
+				<img src="images/logo.png" id="logo">
+				<h1 class="title">Transcript<h1>
+			</div>
+		</div>
+
+		<div id="hideonpass">
+			<form action="" onsubmit="isValid(); return false">
+			<!--return false necessary so page doesn't refresh on submit!-->
+			  <input type="text" name="fname" id="myPsw">
+			  <input type="submit" value="Enter Password">
+			</form>
+			<h3>This transcript is private. Enter password to view grades.</h3>
+		</div>
+
+		<div class="dropdown">
+			<button onclick="myDropdown()" class="dropbtn">Pages</button>
+			  <div id="myDropdown" class="dropdown-content">
+			  	<a href="resume.html">Home</a>
+			    <a href="transcript.html">Transcript</a>
+			    <a href="projects.html">Projects</a>
+			  </div>
+		</div>
+
+		<div id="transcript">
+			<table id="ts-table">
+				<tr>
+					<th>Class Number</th>
+					<th>Class Title</th>
+					<th>Grade</th>
+					<th>Semester</th>
+				</tr>
+				<tr>
+					<td>COMM 20</td>
+					<td>Public Speaking</td>
+					<td>B+</td>
+					<td>Fall 2015</td>
+				</tr>
+				<tr>
+					<td>COMM 191B</td>
+					<td>Activity Projects in Forensics</td>
+					<td>CR</td>
+					<td>Fall 2015</td>
+				</tr>
+				<tr>
+					<td>ENGL 1A</td>
+					<td>First Year Writing</td>
+					<td>B+</td>
+					<td>Fall 2015</td>
+				</tr>
+				<tr>
+					<td>MATH 32</td>
+					<td>Calculus III</td>
+					<td>B+</td>
+					<td>Fall 2015</td>
+				</tr>
+				<tr>
+					<td>MATH 32W</td>
+					<td>Calculus III Workshop</td>
+					<td>CR</td>
+					<td>Fall 2015</td>
+				</tr>
+				<tr>
+					<td>PHIL 10</td>
+					<td>Introduction to Philosophy</td>
+					<td>B</td>
+					<td>Fall 2015</td>
+				</tr>
+				<tr>
+					<td>BIOL 10</td>
+					<td>The Living World</td>
+					<td>A</td>
+					<td>Spring 2016</td>
+				</tr>
+				<tr>
+					<td>ENGR 10</td>
+					<td>Introduction to Engineering</td>
+					<td>B</td>
+					<td>Spring 2016</td>
+				</tr>
+				<tr>
+					<td>MATH 42</td>
+					<td>Discrete Math</td>
+					<td>C+</td>
+					<td>Spring 2016</td>
+				</tr>
+				<tr>
+					<td>MATH 123</td>
+					<td>Differential Equations and Linear Algebra</td>
+					<td>A</td>
+					<td>Spring 2016</td>
+				</tr>
+				<tr>
+					<td>PHYS 50</td>
+					<td>Mechanics</td>
+					<td>B+</td>
+					<td>Spring 2016</td>
+				</tr>
+				<tr>
+					<td>AMS 1A</td>
+					<td>American Civilization</td>
+					<td>A</td>
+					<td>Fall 2016</td>
+				</tr>
+				<tr>
+					<td>CMPE 30</td>
+					<td>Programming Concepts and Methodology</td>
+					<td>A</td>
+					<td>Fall 2016</td>
+				</tr>
+				<tr>
+					<td>ISE 130</td>
+					<td>Engineering Statistics</td>
+					<td>A</td>
+					<td>Fall 2016</td>
+				</tr>
+				<tr>
+					<td>PHYS 51</td>
+					<td>Electricity and Magnetism</td>
+					<td>A-</td>
+					<td>Fall 2016</td>
+				</tr>
+				<tr>
+					<td>AMS 1B</td>
+					<td>American Civilization</td>
+					<td>A-</td>
+					<td>Spring 2017</td>
+				</tr>
+				<tr>
+					<td>CMPE 50</td>
+					<td>Object-Oriented Concepts and Methodology</td>
+					<td>A-</td>
+					<td>Spring 2017</td>
+				</tr>
+				<tr>
+					<td>EE 97</td>
+					<td>Introductory Electrical Engineering Laboratory</td>
+					<td>A</td>
+					<td>Spring 2017</td>
+				</tr>
+				<tr>
+					<td>EE 98</td>
+					<td>Intro to Circuit Analysis</td>
+					<td>B-</td>
+					<td>Spring 2017</td>
+				</tr>
+				<tr>
+					<td>ENGL 1B</td>
+					<td>Argument and Analysis</td>
+					<td>A-</td>
+					<td>Spring 2017</td>
+				</tr>
+				<tr>
+					<td>CMPE 102</td>
+					<td>Assembly Language Programming</td>
+					<td>A-</td>
+					<td>Fall 2017</td>
+				</tr>
+				<tr>
+					<td>CMPE 110</td>
+					<td>Electronics</td>
+					<td>B-</td>
+					<td>Fall 2017</td>
+				</tr>
+				<tr>
+					<td>CMPE 124</td>
+					<td>Digital Design I</td>
+					<td>A-</td>
+					<td>Fall 2017</td>
+				</tr>
+				<tr>
+					<td>CMPE 126</td>
+					<td>Algorithms and Data Structure Design</td>
+					<td>B</td>
+					<td>Fall 2017</td>
+				</tr>
+				<tr>
+					<td>ENGR 100W</td>
+					<td>Engineering Reports</td>
+					<td>A-</td>
+					<td>Fall 2017</td>
+				</tr>
+				<tr>
+					<td>CMPE 125</td>
+					<td>Digital Design II</td>
+					<td>In Progress</td>
+					<td>Spring 2018</td>
+				</tr>
+				<tr>
+					<td>CMPE 127</td>
+					<td>Microprocessor Design I</td>
+					<td>In Progress</td>
+					<td>Spring 2018</td>
+				</tr>
+				<tr>
+					<td>CMPE 130</td>
+					<td>Advanced Algorithm Design</td>
+					<td>In Progress</td>
+					<td>Spring 2018</td>
+				</tr>
+				<tr>
+					<td>CMPE 131</td>
+					<td>Software Engineering I</td>
+					<td>In Progress</td>
+					<td>Spring 2018</td>
+				</tr>
+				<tr>
+					<td>CMPE 142</td>
+					<td>Operating Systems</td>
+					<td>In Progress</td>
+					<td>Spring 2018</td>
+				</tr>
+			</table>
+
+			<footer id="ts-gpa">
+				GPA: 3.486
+			</footer>
+		</div>
+	</body>
+</html>
